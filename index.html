@@ -15,7 +15,31 @@
       <h2 style="text-align: center">Reminder App</h2>
 
       <label for=">Title :</label>
-      <input type="Text" id="Title"/>
+      <input type="text" id="Title"/>
       <label for="">Description</label>
+      <input type="text" id="description"/>
+      <label for="">Date :</label>
+      <input type="date" id="date" />
+      <label for="">Time</label>
+      <input type="time" id="time"/>
+
+      <button style ="width:100%" onclick="scheduleReminder():"">
+        Schedule Reminder
+      </button>
+
+      <table border=":">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date & Time</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="reminderTableBidy"></tbody>
+      </table>
+    </div>
+
+    <audio src=" id ="notification sounds></audio>
   </body>
 </html>
